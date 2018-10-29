@@ -46,3 +46,42 @@ sudo apt install libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev li
 sudo apt install mplayer
 ```
 
+<div dir="rtl">
+  دستورات بالا نرم افزار های جانبی مورد نیاز را بر روی سیستم نصب می کند.
+  <br>
+  <br>
+  2- کتابخانه های ضروری پایتون را از طریق وارد کردن دستورهای زیر در ترمینال، نصب نمایید: 
+</div>
+
+```
+pip3 install av
+pip3 install opencv-python  (if not installed! If you have previously installed it, skip this command)
+pip3 install image
+pip3 install pygame
+```
+
+<div dir="rtl">
+ 3-  پس از نصب ابزارهای مورد نیاز، میتوانید SDK ربات Tello را نصب نمایید. کافیست دستورات زیر را در ترمینال وارد نمایید:
+</div>
+
+```
+git clone https://github.com/hanyazou/TelloPy
+cd TelloPy
+python setup.py bdist_wheel
+pip install dist/tellopy-*.dev*.whl --upgrade
+```
+
+<div dir="rtl">
+  اکنون می توانید از طریق برنامه نویسی پایتون به تصویر دوربین ربات به صورت بی سیم دسترسی داشته باشید و فرمانهای کنترلی را به آن ارسال نمایید. برای اجرای مثالها و کنترل ربات:
+  <br>
+  <br>
+  ابتدا باید ربات را روشن کنید، بعد از 10 ثانیه لپتاپ را به وای فای ربات متصل کنید.
+  <br>
+  کد مثال را در ترمینال از طریق دستور python3 sampleCode.py اجرا کنید(به جای sampleCode نام و مسیر وافعی کد مد نظر را بنویسید)
+  <br>
+  <br>
+  
+  توجه داشته باشید در صورتی که ربات تلو را روشن کنید و مدتی بر روی زمین در دمای اتاف قرار دهید، به دلیل گرم شدن پردازنده پس از چند دقیقه به صورت خودکار خاموش خواهد شد.
+  <br>
+  برای جلوگیری از خاموش شدن در جای ثابت لازم است ربات را خنک نمایید (به عنوان نمونه، با استفاده از یک فن کوچک). در زمان پرواز، پردازنده به صورت طبیعی خنک خواهد شد و خاموشی خودکار اتفاق نخواهد افتاد.
+</div>
