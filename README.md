@@ -1,7 +1,7 @@
 # FIRA-Air-Junior
 
 
-# <div dir="rtl">مساهمتك الأولى</div>
+# <div dir="rtl">راهنمای فارسی نصب واستفاده از ربات Tello</div>
 
 
 
