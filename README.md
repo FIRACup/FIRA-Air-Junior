@@ -1,4 +1,4 @@
-# FIRA-Air-Junior
+# FIRA-Air-U19
 
 
 # <div dir="rtl">راهنمای فارسی نصب واستفاده از ربات Tello</div>
