@@ -37,4 +37,12 @@
 
 </div>
 
-'sudo apt update'
+```
+sudo apt update
+sudo apt install python3-pip
+sudo apt install git
+sudo apt install pkg-config
+sudo apt install libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libavfilter-dev  libswscale-dev libswresample-dev
+sudo apt install mplayer
+```
+
