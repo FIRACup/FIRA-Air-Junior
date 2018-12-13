@@ -54,10 +54,10 @@ sudo apt install mplayer
 </div>
 
 ```
-pip3 install av
-pip3 install opencv-python  (if not installed! If you have previously installed it, skip this command)
-pip3 install image
-pip3 install pygame
+sudo pip3 install av
+sudo pip3 install opencv-python  (if not installed! If you have previously installed it, skip this command)
+sudo pip3 install image
+sudo pip3 install pygame
 ```
 
 <div dir="rtl">
