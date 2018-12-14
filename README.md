@@ -18,6 +18,7 @@
   <br>
   
   راهنمای جزئی مراحل نصب کتابخانه opencv در این لینک قابل دریافت است:
+  <br>
   https://docs.google.com/document/d/1bhRKXJmQ7LDGyPqWj91_aCIEldzdO1PBxEqAiDd_q00/edit?usp=sharing
   <br>
   <br>
